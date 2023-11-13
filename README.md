@@ -1,9 +1,21 @@
-COMO RODAR O PROJETO
+COMO RODAR O PROJETO LOCAL
 Instalar todas as dependências indicadas pelo package.json
 ### npm install
 
-Criar a base de dados 
-Alterar as credenciais do banco de dados no arquivo ".env"
+- Criar uma base de dados 
+- Alterar as credenciais do banco de dados no arquivo ".env"
+
+Exemplo .env vazio:
+
+TZ = 'America/Sao Paulo' # Fuso horário utilizado no projeto
+
+NODE_ENV=
+DB_USER=
+DB_PWD=
+DB_NAME=
+DB_HOST=
+DB_PORT=
+DB_DIALECT=
 
 Executar as Migrations
 ### npx sequelize-cli db:migrate
