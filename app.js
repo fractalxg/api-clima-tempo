@@ -33,7 +33,7 @@ app.use('/climate', messages)
 // Iniciar o servidor na porta 8080, criar função utilizando 
 // o modelo Arrow function para retornar a mensagem de sucesso
 app.listen(8080, () => {
-    console.log("Servidor iniciado na porta 8080: http://localhost:8080")
+    console.log("Servidor iniciado na porta 8080")
 })
 
 
