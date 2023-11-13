@@ -32,7 +32,7 @@ const router = express.Router()
 router.post("/", async (req, res) => {
     try {
         const data = req.body;
-
+        data.city_name = data.city_name.toUpperCase()
         // Verificar se já existe um registro para a cidade e dia informados
         const existingData = await db.ClimateData.findOne({
             where: {
