@@ -2,10 +2,12 @@ COMO RODAR O PROJETO LOCAL
 Instalar todas as dependências indicadas pelo package.json
 ### npm install
 
-- Criar uma base de dados 
-- Alterar as credenciais do banco de dados no arquivo ".env"
+Criar uma base de dados
+### CREATE DATABASE weather CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 
-Exemplo .env vazio:
+Criar um arquivo .env na pasta do projeto e inserir as credenciais no arquivo 
+
+-- Exemplo .env vazio:
 
 TZ = 'America/Sao Paulo' # Fuso horário utilizado no projeto
 
