@@ -2,9 +2,6 @@ COMO RODAR O PROJETO LOCAL
 Instalar todas as dependências indicadas pelo package.json
 ### npm install
 
-Criar uma base de dados
-### CREATE DATABASE weather CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-
 Criar um arquivo .env na pasta do projeto e inserir as credenciais no arquivo 
 
 -- Exemplo .env vazio:
@@ -18,6 +15,9 @@ DB_NAME=
 DB_HOST=
 DB_PORT=
 DB_DIALECT=
+
+Criar uma base de dados
+### CREATE DATABASE weather CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 
 Executar as Migrations
 ### npx sequelize-cli db:migrate
