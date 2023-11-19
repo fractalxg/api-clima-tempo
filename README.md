@@ -1,4 +1,17 @@
 COMO RODAR O PROJETO LOCAL
+
+Abra o terminal e entre no diretório/pasta onde os arquivos serão salvos
+### cd diretório/pasta
+
+Baixe os arquivos do git no diretorio/pasta
+### git clone https://github.com/fractalxg/api-clima-tempo.git
+
+Acesse a pasta que foi baixada
+### cd api-clima-tempo
+
+Acesse a pasta pelo vscode
+### code .
+
 Instalar todas as dependências indicadas pelo package.json
 ### npm install
 
